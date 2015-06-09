@@ -20,7 +20,7 @@ use Facebook\FacebookRequest;
 use Facebook\FacebookRequestException;
 use Facebook\FacebookRedirectLoginHelper;
  
-class Hybrid_Providers_Facebook extends Hybrid_Provider_Model
+class Hybrid_Providers_Facebook2 extends Hybrid_Provider_Model
 {
 	// default permissions, and a lot of them. You can change them from the configuration by setting the scope to what you want/need
 	public $scope=array("email","public_profile");
