@@ -28,10 +28,10 @@ return
 					"enabled" => true,
 					"keys" => array("id" => "", "secret" => ""),
 				),
-				"Facebook" => array(
+				"Facebook" => array (
 					"enabled" => true,
-					"keys" => array("id" => "", "secret" => ""),
-					"trustForwarded" => false
+					"keys"    => array ( "id" => "", "secret" => "" ),
+					"scope"   => array ("email", "public_profile")
 				),
 				"Twitter" => array(
 					"enabled" => true,
